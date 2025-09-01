@@ -1,0 +1,10 @@
+{
+    "system": {
+        "name": "ProjectTrackerSystem",
+        "description": "Система управления проектами и бэклогом с микросервисной архитектурой",
+        "containers": [
+        ],
+        "dependencies": [
+        ]
+    }
+}
