@@ -16,11 +16,12 @@
       },
       {
         "name": "test_container_02",
-        "image": "img",
+        "image": "img_111",
         "ports": [
-          "5001:5001"
+          "5001:5001",
+          "8080:8080"
         ],
-        "description": "Пробный контейнер 2",
+        "description": "Пробный контейнер 2 updated",
         "technology": 0,
         "role": 0,
         "citype": 0
