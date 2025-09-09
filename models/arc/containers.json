@@ -2,7 +2,26 @@
   "system": {
     "name": "ProjectTrackerSystem",
     "description": "Система управления проектами и бэклогом с микросервисной архитектурой",
-    "containers": [],
+    "containers": [
+      {
+        "name": "test_container_01",
+        "image": "img",
+        "ports": [
+          "5001:5001",
+          "8080:8080",
+          "5432:5432"
+        ],
+        "description": "Пробный контейнер 1",
+        "technology": "Python",
+        "role": "ApiGw",
+        "citype": "Build",
+        "userstories": [
+          "us001",
+          "us002",
+          "us003"
+        ]
+      }
+    ],
     "dependencies": []
   }
 }
