@@ -16,6 +16,20 @@
         "role": 0,
         "citype": 0,
         "userstories": []
+      },
+      {
+        "name": "test_container_02",
+        "image": "img",
+        "ports": [
+          "5001:5001",
+          "8080:8080",
+          "5432:5432"
+        ],
+        "description": "Пробный контейнер 2",
+        "technology": 0,
+        "role": 0,
+        "citype": 0,
+        "userstories": []
       }
     ],
     "dependencies": []
