@@ -30,6 +30,24 @@
         "role": 0,
         "citype": 0,
         "userstories": []
+      },
+      {
+        "name": "test_container_03",
+        "image": "img",
+        "ports": [
+          "5001:5001",
+          "8080:8080",
+          "5432:5432"
+        ],
+        "description": "Пробный контейнер 3",
+        "technology": 0,
+        "role": 0,
+        "citype": 0,
+        "userstories": [
+          "us001",
+          "us002",
+          "us003"
+        ]
       }
     ],
     "dependencies": []
