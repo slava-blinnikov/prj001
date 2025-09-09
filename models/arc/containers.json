@@ -1,0 +1,23 @@
+{
+  "system": {
+    "name": "ProjectTrackerSystem",
+    "description": "Система управления проектами и бэклогом с микросервисной архитектурой",
+    "containers": [
+      {
+        "name": "test_container_01",
+        "image": "img",
+        "ports": [
+          "5001:5001",
+          "8080:8080",
+          "5432:5432"
+        ],
+        "description": "Пробный контейнер 1",
+        "technology": 0,
+        "role": 0,
+        "citype": 0,
+        "userstories": []
+      }
+    ],
+    "dependencies": []
+  }
+}
