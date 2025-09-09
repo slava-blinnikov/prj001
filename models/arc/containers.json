@@ -20,6 +20,24 @@
           "us002",
           "us003"
         ]
+      },
+      {
+        "name": "test_container_02",
+        "image": "img",
+        "ports": [
+          "5001:5001",
+          "8080:8080",
+          "5432:5432"
+        ],
+        "description": "Пробный контейнер 2",
+        "technology": "python",
+        "role": "apigw",
+        "citype": "build",
+        "userstories": [
+          "us001",
+          "us002",
+          "us003"
+        ]
       }
     ],
     "dependencies": []
