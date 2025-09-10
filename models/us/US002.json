@@ -1,0 +1,11 @@
+{
+  "id": "US002",
+  "title": "Делай хорошо и не делай плохо.",
+  "role": "Huge",
+  "action": "GoGoGo",
+  "goal": "Money",
+  "description": "Пробная пользовательская история 002",
+  "priority": "Medium",
+  "type": "Functional",
+  "requirements": "REQ002"
+}
